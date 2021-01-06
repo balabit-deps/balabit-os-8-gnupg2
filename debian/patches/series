@@ -21,3 +21,4 @@ Make-gpg-zip-use-tar-from-PATH.patch
 gpg-drop-import-clean-from-default-keyserver-import-optio.patch
 from-master/gpg-Fix-output-of-with-secret-if-a-pattern-is-given.patch
 dirmngr-honor-http-proxy.patch
+dirmngr-handle-EAFNOSUPPORT-at-connect_server.patch

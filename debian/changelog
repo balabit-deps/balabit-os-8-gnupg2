@@ -1,3 +1,10 @@
+gnupg2 (2.2.19-3ubuntu2.1) focal; urgency=medium
+
+  * d/p/dirmngr-handle-EAFNOSUPPORT-at-connect_server.patch:
+    - Fix IPv6 connectivity for dirmngr (LP: #1910432)
+
+ -- Heitor Alves de Siqueira <halves@canonical.com>  Wed, 06 Jan 2021 18:10:35 +0000
+
 gnupg2 (2.2.19-3ubuntu2) focal; urgency=medium
 
   * Don't declare diffutils as a test dependency, this package is essential
