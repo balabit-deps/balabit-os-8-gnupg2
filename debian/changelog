@@ -1,3 +1,12 @@
+gnupg2 (2.2.19-3ubuntu2.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: signature forgery via injection into the status line
+    - debian/patches/CVE-2022-34903.patch: Fix garbled status messages in
+      NOTATION_DATA in g10/cpr.c.
+    - CVE-2022-34903
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 04 Jul 2022 12:20:36 -0400
+
 gnupg2 (2.2.19-3ubuntu2.1) focal; urgency=medium
 
   * d/p/dirmngr-handle-EAFNOSUPPORT-at-connect_server.patch:
