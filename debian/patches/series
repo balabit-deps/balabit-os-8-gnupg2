@@ -23,3 +23,8 @@ from-master/gpg-Fix-output-of-with-secret-if-a-pattern-is-given.patch
 dirmngr-honor-http-proxy.patch
 dirmngr-handle-EAFNOSUPPORT-at-connect_server.patch
 CVE-2022-34903.patch
+CVE-2025-30258-1.patch
+CVE-2025-30258-2.patch
+CVE-2025-30258-3.patch
+CVE-2025-30258-4.patch
+CVE-2025-30258-5.patch
